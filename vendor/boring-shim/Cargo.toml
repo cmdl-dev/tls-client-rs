@@ -1,0 +1,11 @@
+[package]
+name = "boring"
+version = "4.3.0"
+edition = "2021"
+
+[lib]
+name = "boring"
+path = "src/lib.rs"
+
+[dependencies]
+boring2 = { version = "4.15.15", features = ["cert-compression"] }
